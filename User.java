@@ -14,7 +14,7 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column
-	private int uid;
+	private long uid;
 	
 	@Column
 	private String u_name;
@@ -26,9 +26,9 @@ public class User {
 	private String user_meal_choice;
 	
 	@Column
-	private int mobNo;
+	private long mobNo;
 	
-	public int getUid() {
+	public long  getUid() {
 		return uid;
 	}
 	public void setUid(int uid) {
@@ -56,10 +56,10 @@ public class User {
 		this.user_meal_choice = user_meal_choice;
 	}
 	
-	public int getMobNo() {
+	public long getMobNo() {
 		return mobNo;
 	}
-	public void setMobNo(int mobNo) {
+	public void setMobNo(long mobNo) {
 		this.mobNo = mobNo;
 	}
 	
