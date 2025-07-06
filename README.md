@@ -10,10 +10,20 @@
 - Controller: `UserController.java`
 - Service: `UserService.java`, `UserServiceImpl.java`
 - Repository: `UserRepository.java`
-- Entity: `User.java`
+- Entity: `Mess.java`
+  
+- Controller: `MessController.java`
+- Service: `MessService.java`, `MessServiceImpl.java`
+- Repository: `MessRepository.java`
+- Entity: `Mess.java`
+
+- Controller: `MessUserController.java`
+- Service: `MessUserService.java`, `MessUserServiceImpl.java`
+- Repository: `MessUSerRepository.java`
+- Entity: `MessUserInfo.java`
 
 ##INTRODUCTION :-
-This project is a RESTful web service developed using Spring Boot, designed to manage user data through standard CRUD (Create, Read, Update, Delete) operations. It demonstrates the fundamental building blocks of modern web service development using Java and Spring, focusing on layered architecture, REST principles, and data persistence.
+This project is a RESTful web service developed using Spring Boot, designed for the student to find the mess.It is designed for the student to help them to find the mess with the information mess owner , price of one meal ,  location , and delivery mode.This "Messfinder"  project help them to find the mess with ease that is without effort.
 
  ## System Architecture :-
    - This project follows a 3-layered architecture:
